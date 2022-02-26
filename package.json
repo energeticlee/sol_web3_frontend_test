@@ -8,5 +8,12 @@
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.2"
+  },
+  "scripts": {
+    "dev": "yarn install & cd client & yarn install",
+    "t1": "ts-node task_folder/task1.ts",
+    "t2": "ts-node task_folder/task2.ts",
+    "t3": "ts-node task_folder/task3.ts",
+    "t4": "cd client & yarn react-scripts start"
   }
 }
